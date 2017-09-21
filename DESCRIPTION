@@ -1,0 +1,15 @@
+Package: fillmap
+Title: Create maps with SpatialPolygons objects
+Version: 0.0.0.9000
+Authors@R: person("Rachel", "Carroll", email = "rachel.carroll@nih.gov", role = c("aut", "cre"))
+Description: This function offers several options for creating plots with
+    SpatialPolygons objects. This can be a single plot or multiple plots. These
+    multi-plots can have the same legend or individual legends. Additionally, the
+    layout call within this function offers many options for improving the resulting
+    figures. The third function, assessmaps, offers the ability to perform a secondary
+    assessment on the random effects, such as those mapped via fillmap.
+Depends:
+    R (>= 3.2.4)
+License: NA
+LazyData: true
+RoxygenNote: 6.0.1.9000
